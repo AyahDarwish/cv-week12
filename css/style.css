@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+--primary-color: #333333;
+--primary-light: #fff4e6;
+--muted-grey: #7E7E7E;
+--heading-font: "JetBrains Mono", monospace;
+--body-font: "JetBrains Mono", monospace;
+}
+
+*  {
+    width: 390px;
+    margin: 30px;
+    padding: auto;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: var(--primary-light);
+    font-family: var(--body-font);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 480px;
+  margin-top: auto;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+
+.contacts {
+    margin-left: auto;
+}
+
+.label {
+    margin-left: 0px;
+}
+
+.value {
+    margin-right: 0px;
+    margin-left: 80px;
+}
+
+.self-description {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    font-weight: lighter;
+}
+
+.message-btn-container {
+    margin-left: 0px;
+}
+
+.work-experience {
+    margin-bottom: 0px;
+    text-align: right;
+}
+hr {
+    margin-top: 0px;
+    background-color: black;
+    height: 3px;
+}
+.company-name {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+.year {
+    font-size: small;
+    margin-right: 0px;
+    margin-left: 90px;
+}
+.position {
+    font-style: oblique;
+    font-size: small;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+.description {
+text-align: left;
+font-size: 15px;
+margin-top: 5px;
+font-weight: lighter;
+margin-left: 0px;
+}
+
+.education {
+    margin-bottom: 0px;
+    text-align: right;
+}
+.school {
+    margin-left: 0px;
+    text-align: right;
+}
+.school-name {
+    font-weight: bold;
+}
+
+.skills {
+margin-bottom: 0px;
+text-align: right;
+}
+.softwares {
+    margin-left: 0px;
+    text-align: right;
+}
+.software-name {
+  font-weight: bold;
+  font-size: 20;
+}
+.progress-bar {
+  background-color: #e0dbdb;
+  height: 10px;
+  border-radius: 5px;
+  margin-left: 0px;
+  
+}
+.progress-fill {
+  background-color: var(--primary-color);
+  height: 100%;
+  border-radius: 5px;
+  margin-left: 0px;
+}
+.percentage {
+    margin-left: 0px;
+}
+
+.left-column {
+  width: 480px;
+}
+.right-column {
+  width: 0px;
+  margin-left: auto;
+  text-align: right;
+}
